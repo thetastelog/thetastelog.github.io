@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'League Spartan';
-  src: url("https://dl.dropboxusercontent.com/u/81135676/leaguespartan-bold.eot");
-  src: url("https://dl.dropboxusercontent.com/u/81135676/leaguespartan-bold.eot?#iefix") format('embedded-opentype'), url("https://dl.dropboxusercontent.com/u/81135676/leaguespartan-bold.woff2") format('woff2'), url("https://dl.dropboxusercontent.com/u/81135676/leaguespartan-bold.woff") format('woff'), url("https://dl.dropboxusercontent.com/u/81135676/leaguespartan-bold.ttf") format('truetype'), url("https://dl.dropboxusercontent.com/u/81135676/leaguespartan-bold.svg#league_spartanbold") format('svg');
+  src: url("misc/leaguespartan-bold.eot");
+  src: url("misc/leaguespartan-bold.eot?#iefix") format('embedded-opentype'), url("misc/leaguespartan-bold.woff2") format('woff2'), url("misc/leaguespartan-bold.woff") format('woff'), url("misc/leaguespartan-bold.ttf") format('truetype'), url("misc/leaguespartan-bold.svg#league_spartanbold") format('svg');
   font-weight: bold;
   font-style: normal;
 }
