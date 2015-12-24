@@ -3,6 +3,8 @@
 <head>
 <title>TheTasteLog | Home ::</title>
 <script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/instafeed.js"></script> <!--Instagram-->
+<script type="text/javascript" src="js/instafeed.min.js"></script> <!--Instragram-->
 <!-- Custom Theme files -->
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <link href="css/animate.min.css" rel="stylesheet" type="text/css" media="all" />
@@ -121,7 +123,32 @@
       </div>
     </div>
   </div>
+  <!-- Start New Block -->
+  <div style="background-image: url('images/TheTasteLog P6.jpg')" class="big_block instafeed">
+    <div id="instafeed" class="content">
+      <!--<h2>Bringing You Honest and Tasty Reviews</h2>
+      <h4>Tasting food for you from all over UAE</h4>
+      <button class="food_cta" title="Read all the reviews on Zomato!" onclick="window.location='https://bit.ly/TTL-Z';">Find My Reviews Here</button>-->
+    </div>
+  </div>
+  <!-- End New Block -->
 </div>
 </body>
 <footer role="contentinfo" class="footer">&copy; 2015 The Taste Log.</footer>
+<!--instafeed-->
+<script type="text/javascript">
+    var feed = new Instafeed({
+        get: 'user',
+        userId: '2249538465',
+        accessToken: '2249538465.44628bf.9d761c55d54a453d81b0fae358bdcd98',
+        resolution: 'thumbnail',
+        sortBy: 'most-liked',
+        limit: '5',
+        template: '<div class="div-insta-item animated bounceInDown"><a class="polaroid" href="{{link}}"><img class="img-insta" src="{{image}}" /><p><button class="btn_insta"><img src="images/Love.png" width="20%" height="20%" />  {{likes}}</button></p></a></div>',
+    });
+
+    feed.run();
+</script>
+
+    <!--instafeed-->
  </html>
